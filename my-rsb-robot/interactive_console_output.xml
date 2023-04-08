@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230322 18:52:11.569" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\ABHAY\.vscode\extensions\robocorp.robotframework-lsp-1.9.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230322 18:56:00.045" endtime="20230322 18:56:16.049"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20230322 19:05:28.600" endtime="20230322 19:05:37.748"/>
+</kw>
+<status status="PASS" starttime="20230322 18:52:11.600" endtime="20230322 19:14:52.963"/>
+</kw>
+<status status="PASS" starttime="20230322 18:52:11.600" endtime="20230322 19:14:52.963"/>
+</test>
+<status status="PASS" starttime="20230322 18:52:11.569" endtime="20230322 19:14:52.963"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
